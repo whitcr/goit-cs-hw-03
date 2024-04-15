@@ -5,7 +5,6 @@ from psycopg2 import connect, errors
 
 fake = Faker()
 
-# Підключення до бази даних PostgreSQL
 conn = connect(
     host="localhost",
     database="postgres",
